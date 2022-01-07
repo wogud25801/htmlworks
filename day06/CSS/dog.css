@@ -1,0 +1,21 @@
+/*전체 선택자- 마진과 패딩으로 0으로 세팅*/
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+*{margin: 0; padding: 0;}
+#container{
+    width: 1000px;
+    margin:0 auto;
+}
+/* header 스타일*/
+     header{height: 80px; background:rgb(0,95, 0);}
+     header #logo{width: 200px; float: left; padding: 15px 20px;}
+     header #logo h1{color: white; font-family: 'Lucida Sans';}
+     header #logo h1:hover{width: 700px; float: right;}
+     header nav{width: 700px; float: right;}
+     header nav ul{list-style: none; text-align: right; margin-right: 50px;}
+     header nav ul li{display: inline-block; margin: 20px 15px; padding: 10px;}
+     header nav ul li a{color: white; text-decoration: none;}
+     header nav ul li a:hover{color:#2fd2fd;}
+/*section 스타일*/
+section{margin: 20px;}
+section h2{font-family: 'Nanum Pen Script', cursive; font-size: 2.5em;}
+

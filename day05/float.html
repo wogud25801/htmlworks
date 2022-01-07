@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float 예제</title>
+    <style>
+        div{
+            width: 100px;
+            margin: 20px;
+            padding: 10px;
+            
+        }
+        .box1{
+            background: orange;
+            /*display: inline-block;*/
+            float: left; /*왼쪽에 배치*/
+
+        }
+        .box2{
+            background:orangered;
+            /*display: inline-block;*/
+            float:left; /*왼쪽에 배치*/
+        }
+        .box3{
+            background:rgb(39, 198, 247);
+            /*display: inline-block;*/
+            float:right; /*오른쪽에 배치*/
+        }
+        .box4{
+            background-color: pink;
+            clear: both; /*left, right 해제 - float속성 없앰 */
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">박스1</div>
+    <div class="box2">박스2</div>
+    <div class="box3">박스3</div>
+    <div class="box4">박스4</div>
+    
+</body>
+</html>

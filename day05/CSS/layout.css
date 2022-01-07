@@ -1,0 +1,30 @@
+#container{
+    width:1000px;
+    margin:0 auto;
+}
+header{
+    width: 978px;
+    height: 100px;
+    border:1px solid #ccc;
+    padding: 10px;
+    /*978px + padding(20px) + border(2px)*/
+}
+section{
+    width: 650px;
+    height: 600px;
+    border: 1px solid #ccc;
+    float:left
+}
+aside{
+    width: 300px;
+    height: 600px;
+    border: 1px solid #ccc;
+    background: #eee;
+    float:right;
+}
+footer{
+    width: 978px;
+    height: 100px;
+    border: 1px solid #ccc;
+    clear:both;
+}

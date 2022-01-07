@@ -1,0 +1,5 @@
+/*garlic.css*/
+h2{color:blue;}    /*글자색 color 속성 사용*/
+h3{color:red;}
+p{font-family:"바탕체"; font: size 14px;} /*글자모양 font-family 속성 사용*/
+</style>

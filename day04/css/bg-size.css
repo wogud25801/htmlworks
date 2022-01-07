@@ -1,0 +1,29 @@
+/*배경이미지 크기*/
+
+div{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+.bg1{
+    background:url(../images/bg5.jpg) no-repeat;
+    background-size: auto;/*기본값 생략 가능*/
+}
+.bg2{
+    background: url('../images/bg5.jpg')no-repeat top left;
+    background-size: 200px; /*높이는 자동으로 설정됨*/
+}
+.bg3{
+    background: url('../images/bg5.jpg')no-repeat top right;
+    background-size: 60%; /*%는 상대크기*/
+}
+.bg4{
+    background: url('../images/bg5.jpg')no-repeat top left;
+    background-size: contain; /*이미지가 축소되어 비율대로 보여줌*/
+}
+.bg5{
+    background: url('../images/bg5.jpg')no-repeat top left;
+    background-size: cover; /*이미지가 박스의 크기만큼 꽉 차게 보여줌*/
+}

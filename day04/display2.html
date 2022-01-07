@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테두리 관련 속성 스타일</title>
+    <style>
+        .round{
+            width: 300px;
+            height: 250px;
+            border: 2px solid #f00;
+            margin: 50px;
+            display: inline-block;
+        }
+        #bg{
+            /*고양이 이미지 넣기- 꽉 채워서 보이기*/
+            background: url('./images/cat.jpg')no-repeat;
+            background-size: cover;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="round"></div>
+    <div class="round" id='bg'></div>
+</body>
+</html>

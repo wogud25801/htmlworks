@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>재무 상태표</title>
+    <style>
+        table, td{
+            
+            border:1px solid gray;
+            text-align: center;
+        }
+        td{
+            height: 40px;
+
+        }
+
+    </style>
+    <head>
+        <body>
+            <!--3행 2열 표 만들기-->
+            <table>
+                <caption>재무 상태표</caption>
+                <tr>
+                    <td rowspan="2">자산:현금,<br>현금 외 자산</td>
+                    <td>부채:차입금</td>
+                </tr>
+                <tr>
+                    <td>자본:자본금, 이익 잉여금</td>
+                </tr>
+                <!--셀 병합 - 열은 colspan, 행은 rowspan 사용 -->
+                </table>
+
+        </body>
+    </head>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표의 칼럼 스타일</title>
+    <style>
+        table, td{
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+        }
+        td{/*셀*/
+           width: 100px;
+           height: 50px;
+           text-align: center;
+        }
+        /*.bg{background: #eee;}*/
+    </style>
+</head>
+<body>
+    <!--2행 3열 표 만들기-->
+    <table>
+        <colgroup>
+        <col>
+        <col style="background:rgb(245, 173, 173);">
+        <col style="width: 200px;">
+        
+
+    </colgroup>
+        <tr class="bg">
+            <td>안녕</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
