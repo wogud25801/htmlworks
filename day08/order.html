@@ -10,7 +10,6 @@
 <body>
     <div id="container">
     <h1>레드향 주문하기</h1>
-    <form method="post" action="">
         <fieldset>
             <legend> 상품 선택</legend>
             <p><b>주문할 상품을 선택해 주세요</b></p>
@@ -30,10 +29,11 @@
             <ul>
                 <li>
                 <label>
-                    <input type="radio" name="gift" value="yes">선물 포장</label>
+                    <input type="radio" name="gift" value="yes">선물 포장
                     </li>
                     <li>
-                        <input type="radio" name="gift" value="yes">선물 포장 안함</label>
+                        <input type="radio" name="gift" value="yes">선물 포장 안함
+                    </label>
                     </li>
                     </li>
             </ul>
@@ -43,11 +43,14 @@
                 <ul id="shipping">    
                 <li>
                         <label for="name">이름</label>
-                        <input type="text" name="name" id="name">
+                        <input type="text" name="name" id="name" 
+                        autofocus required>
+                        <!-- autofocus - 커서 위치를 자동으로 설정, 
+                             ruquired - 필수 입력 속성-->
                     </li>
                     <li>
                         <label for="addr">배송 주소</label>
-                        <input type="text" name="addr" id="addr">
+                        <input type="text" name="addr" id="addr"required>
                     </li>
                     <li>
                         <label for="email">이메일</label>
@@ -55,7 +58,8 @@
                     </li>
                     <li>
                         <label for="phone">연락처</label>
-                        <input type="tel" name="phone" id="phone">
+                        <input type="tel" name="phone" id="phone"required
+                        placeholder="하이픈(-)을 빼고 입력해 주세요">
                     </li>
                 </ul>
         </fieldset>
