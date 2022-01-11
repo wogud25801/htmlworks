@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>목록 선택 태그</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div id="content">
+        <form method="post">
+            <fieldset>
+                <legend>수강 신청</legend>
+                <ul>
+                    <li>
+                        <label for="class_id">학과 번호</label>
+                        <input type="text" name="class_id" id="class_id">
+                    </li>
+                    <li>
+                        <label for="name">이름</label>
+                        <input type="text" name="name" id="name">
+                    </li>
+                    <li>
+                        <label for="major">학과</label>
+                        <select id="major" name="major">
+                            <option value="software">소프트웨어학과</option>
+                            <option value="mechanic">기계공학과</option>
+                            <option value="electric">전자공학과</option>
+                            <option value="computer">컴퓨터공학과</option>
+                        </select>
+                    </li>
+                </ul>
+                <div class="buttom">
+                    <input type="submit" value="신청하기">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

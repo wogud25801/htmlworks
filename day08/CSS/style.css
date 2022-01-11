@@ -1,0 +1,10 @@
+
+#content{width: 600px; margin: 30px auto;}
+form{width: 500px;}
+form ul{list-style: none;}
+form ul li{margin: 20px ;}
+form label{width: 100px; float: left}
+/*labble 요소에 크기를 주면 배치할 수 있다.*/
+form select{width: 170px; height: 20px;}
+.button{margin: 10px;}
+.button input{margin: 100px; height: 30px;}
