@@ -68,4 +68,5 @@ header nav{width: 750px; float: right;}
     footer #bottomMenu{list-style: none; margin: 10px 10px 10px 50px;}
     footer #bottomMenu li{display: inline-block; margin: 10px 0; 
                           border-right: 1px solid #ccc; padding: 0 10px;}
+    footer #bottomMenu li:list-child{border:none;}
     footer #bottomMenu li a{text-decoration: none; color: #444;}

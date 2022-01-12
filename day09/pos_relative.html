@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relative 속성</title>
+    <style>
+        div{
+            width: 100px;
+            padding: 20px;
+        }
+        .box1{
+            background: rgb(176, 176,248);
+        }
+        .box2{
+            background: yellow;
+            position: relative;
+            top: 30px;
+            left: 50px;
+            /*relative - 이전 박스(개체)가 기준이 됨*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">박스1</div>
+    <div class="box2">박스2</div>
+</body>
+</html>

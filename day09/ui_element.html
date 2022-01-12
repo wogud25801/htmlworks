@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가상 클래스 선택자 예제</title>
+    <style>
+        form{width: 600px; margin: 20px auto;}
+        fieldset{margin-bottom: 20px;}
+        input:disabled{
+            background: #ddd;
+            border: 1px solid #bbb;
+        }
+        input:checked + span{
+            color: blue;
+            /* '+' 기호는 연결 선택자임*/
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+                <legend>사용자 정보</legend>
+                <label>이름<input type="text" disabled></label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>신청 과목</legend>
+            <p>이 달에 신청할 과목을 선택하세요(1과목만 가능)</p>
+            <lable>
+                <input type="radio" name="subject" value="speaking"><span>회화</span>
+            </lable>
+            <label>
+                <input type="radio" name="subject" value="grammer"><span>문법</span>
+            </lable>
+            <label>
+                <input type="radio" name="subject" value="writing"><span>작문</span>
+            </lable>
+            <!-- radio는 1개만 선택-->
+        </fieldset>
+    </form>
+    
+</body>
+</html>

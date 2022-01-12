@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>책갈피 구현 예제</title>
+    <style>
+        #contents{width: 800px; margin: 0 auto;}
+        #fix{
+            width: 150px;
+            border: 3px solid green;
+            border-radius: 10px;
+            position: fixed;
+            top: 50px;
+            right: 100px;
+            /*fixed - 부모 요소가 브라우저 창이며
+            화면을 스크롤해도 같은 위치에 고정됨*/
+        }
+        #fix .cs-center h4{
+            margin: 10px 20px;
+        }
+        #fix .cs-center p{padding-left: 20px; font-weight:  bold; margin: 0;}
+        #fix .cs-center ul{padding:10px; margin: 0;}
+        #fix .cs-center ul li{margin: 10px 10px 10px 15px; font-size: 0.8em;}
+    </style>
+</head>
+<body>
+    <div id="contents">
+        <section id="text">
+            <h2>앵거 만들기</h2>
+            <p>웹 문서가 너무 길 경우 필요한 곳마다 문서 안에 이름을 붙여놓고,
+                그 위치로 한 번에 이동하는 링크를 만들 수 있는데, 이 기능을
+                앵커(anchor)라고 한다.
+            </p>
+            <ul>
+                <ul id="menu">
+                <li><a href="#info">도서정보</a></li>
+                <li><a href="#review">리뷰/한줄평</a></li>
+                <li><a href="#shipping">배송/반품</a></li>
+            </ul>
+            <h2 id="info">도서 정보</h2>
+            <p>웹 문서가 너무 길 경우 필요한 곳마다 문서 안에 이름을 붙여놓고,
+                그 위치로 한 번에 이동하는 링크를 만들 수 있는데, 이 기능을
+                앵커(anchor)라고 한다.
+            </p>
+            <p>웹 문서가 너무 길 경우 필요한 곳마다 문서 안에 이름을 붙여놓고,
+                그 위치로 한 번에 이동하는 링크를 만들 수 있는데, 이 기능을
+                앵커(anchor)라고 한다.
+            </p>
+            <p>웹 문서가 너무 길 경우 필요한 곳마다 문서 안에 이름을 붙여놓고,
+                그 위치로 한 번에 이동하는 링크를 만들 수 있는데, 이 기능을
+                앵커(anchor)라고 한다.
+            </p>
+            <p><a href="#menu">[메뉴로]</a></p>
+            <h2 id="review">리뷰/한줄평</h2>
+            <p>웹 문서가 너무 길 경우 필요한 곳마다 문서 안에 이름을 붙여놓고,
+                그 위치로 한 번에 이동하는 링크를 만들 수 있는데, 이 기능을
+                앵커(anchor)라고 한다.
+            </p>
+            <p>웹 문서가 너무 길 경우 필요한 곳마다 문서 안에 이름을 붙여놓고,
+                그 위치로 한 번에 이동하는 링크를 만들 수 있는데, 이 기능을
+                앵커(anchor)라고 한다.
+            </p>
+            <p>웹 문서가 너무 길 경우 필요한 곳마다 문서 안에 이름을 붙여놓고,
+                그 위치로 한 번에 이동하는 링크를 만들 수 있는데, 이 기능을
+                앵커(anchor)라고 한다.
+            </p>
+            <p><a href="#menu">[메뉴로]</a></p>
+            <h2 id="shipping">배송/반품</h2>
+            <p>웹 문서가 너무 길 경우 필요한 곳마다 문서 안에 이름을 붙여놓고,
+                그 위치로 한 번에 이동하는 링크를 만들 수 있는데, 이 기능을
+                앵커(anchor)라고 한다.
+            </p>
+            <p>웹 문서가 너무 길 경우 필요한 곳마다 문서 안에 이름을 붙여놓고,
+                그 위치로 한 번에 이동하는 링크를 만들 수 있는데, 이 기능을
+                앵커(anchor)라고 한다.
+            </p>
+            <p>웹 문서가 너무 길 경우 필요한 곳마다 문서 안에 이름을 붙여놓고,
+                그 위치로 한 번에 이동하는 링크를 만들 수 있는데, 이 기능을
+                앵커(anchor)라고 한다.
+            </p>
+            <p><a href="#menu">[메뉴로]</a></p>
+            </section>  
+            <div id="fix">
+                <div class="cs-center">
+                    <h4>문의 전화</h4>
+                    <p>032-262-0600</p>
+                    <ul>
+                        <li>평일:09:00~18:00</li>
+                        <li>주말:09:00~12:00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>

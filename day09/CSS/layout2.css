@@ -1,5 +1,6 @@
 *{
-    box-sizing: content-box;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
 }
 #container{
     width:1000px;
@@ -7,7 +8,7 @@
 }
 #container h1{font-size: 2em;}
 header{
-    width: 978px;
+    width: 1000px;
     height: 100px;
     border:1px solid #ccc;
     padding: 10px;
@@ -23,11 +24,12 @@ aside{
     width: 300px;
     height: 600px;
     border: 1px solid #ccc;
-    background: #eee;
+    background: rgb(142, 214,255);
     float:right;
 }
 footer{
-    width: 978px;
+    /*width: 1000px;*/
+    width: 100%;
     height: 100px;
     border: 1px solid #ccc;
     padding: 10px;
